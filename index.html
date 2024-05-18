@@ -147,18 +147,6 @@ YII_CSRF_TOKEN='cccb291bf7732a6376ea5e48391983ffb11cd4b7';
                 Mostrar en mapa            </a>
         </div>
     </div>
-    <div class="vcard-row" ng-show="view.features.length &gt; 0">
-        <label class="">Servicios disponibles</label>
-        <ul class="features-container">
-            <!-- ngRepeat: feature in view.features track by $index --><li ng-repeat="feature in view.features track by $index" class="ng-scope">
-                <i ng-class="&#39;icon icon-event-features-&#39; + feature" class="icon icon-event-features-13"></i>
-            </li><!-- end ngRepeat: feature in view.features track by $index --><li ng-repeat="feature in view.features track by $index" class="ng-scope">
-                <i ng-class="&#39;icon icon-event-features-&#39; + feature" class="icon icon-event-features-7"></i>
-            </li><!-- end ngRepeat: feature in view.features track by $index --><li ng-repeat="feature in view.features track by $index" class="ng-scope">
-                <i ng-class="&#39;icon icon-event-features-&#39; + feature" class="icon icon-event-features-4"></i>
-            </li><!-- end ngRepeat: feature in view.features track by $index -->
-        </ul>
-    </div>
     <div class="vcard-separator" ng-show="view.about"></div>
     <div class="vcard-row" ng-show="view.about" ng-init="aboutShowMore= false">
         <label>Acerca de</label>
